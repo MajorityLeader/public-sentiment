@@ -6,7 +6,7 @@ this framework is an expressjs server which features:
 * public comments on the legislation
 * filter comments for any profanity, and also score comments based on their sentiment using a third-party API
 * invisibly prevent spamming of endorsements and comments using v3 of Google reCaptcha
-* forward public comments to their respective memebers of congress
+* forward public comments to their respective memebers of congress, using CWC: https://www.house.gov/doing-business-with-the-house/communicating-with-congress-cwc
 * display public sentiment on a map by district/city
 
 ## Getting started
@@ -26,7 +26,7 @@ MYSQL_PASSWORD=[password]
 CAPTCHA_SECRET_KEY=[Google reCaptcha API secret key]
 CAPTCHA_CLIENT_KEY=[Google reCaptcha API public key]
 
-CWC_KEY=[Communicating with congress key, issued by House] see: https://www.house.gov/doing-business-with-the-house/communicating-with-congress-cwc
+CWC_KEY=[Communicating with congress key, issued by House]
 
 GOOGLE_KEY=[Google API key for rendering maps or looking up district reps for a given address]
 
