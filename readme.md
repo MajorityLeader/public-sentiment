@@ -6,12 +6,12 @@ this framework is an expressjs server which features:
 * public comments on the legislation
 * filter comments for any profanity, and also score comments based on their sentiment using a third-party API
 * invisibly prevent spamming of endorsements and comments using v3 of Google reCaptcha
-* forward public comments to their respective memebers of congress, using CWC: https://www.house.gov/doing-business-with-the-house/communicating-with-congress-cwc
+* forward public comments to their respective members of congress, using CWC: https://www.house.gov/doing-business-with-the-house/communicating-with-congress-cwc
 * display public sentiment on a map by district/city
 
 ## Getting started
 ### SQL structure
-This framework uses Sequelize to manage it's data backend: https://sequelize.org//. Tables can automatically be created
+This framework uses Sequelize to manage its data backend: https://sequelize.org//. Tables can automatically be created
 using Sequelize's Model synchronization: https://sequelize.org/master/manual/model-basics.html
 
 ### .env variables
