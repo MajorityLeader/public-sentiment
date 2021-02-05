@@ -26,9 +26,9 @@ MYSQL_PASSWORD=[password]
 CAPTCHA_SECRET_KEY=[Google reCaptcha API secret key]
 CAPTCHA_CLIENT_KEY=[Google reCaptcha API public key]
 
-CWC_KEY=[Communicating with congress key, issues by House]
+CWC_KEY=[Communicating with congress key, issued by House] see: https://www.house.gov/doing-business-with-the-house/communicating-with-congress-cwc
 
 GOOGLE_KEY=[Google API key for rendering maps or looking up district reps for a given address]
 
-ADMIN_KEY=[admin key for admin router endpoints]
+ADMIN_KEY=[any unique admin key for admin router endpoints]
 ```
